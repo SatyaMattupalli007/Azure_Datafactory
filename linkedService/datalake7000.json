@@ -1,0 +1,12 @@
+{
+	"name": "datalake7000",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datalakelearning7000.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENBNjdFNkMxLUYyMjktNEI3NC04NEQ3LUZDRTE2QjBBQzBDMV9hNThhN2JlOC1hOWFjLTQ5NWEtOTg5Yy1kZGIzOGI1NGVjMjYiDQp9"
+		}
+	}
+}
